@@ -5,10 +5,10 @@ import { styles } from "./styles";
 export const Header = () => {
     return (
         <View style={styles.container}>
-            <Image style={styles.logo} source={require("../../../assets/dne-logo.png")} />
+            <Image style={styles.logo} source={require("../../../assets/images/dne-logo.png")} />
 
             <View style={styles.menu}>
-                <Image style={styles.menu.logo} source={require("../../../assets/une-logo.png")} />
+                <Image style={styles.menu.logo} source={require("../../../assets/images/une-logo.png")} />
                 <Icon name="menu" size={38} color="#000000" />
             </View>
         </View>
