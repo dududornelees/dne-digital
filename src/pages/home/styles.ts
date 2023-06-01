@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 16
     },
     profilePictureAndQrCode: {
-        gap: 8,
+        gap: 10,
         flexDirection: "row",
         justifyContent: "space-between",
         marginTop: 16
