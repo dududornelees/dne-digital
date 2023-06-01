@@ -16,5 +16,22 @@ export const styles = StyleSheet.create({
     },
     profileInfo: {
         marginTop: 28
+    },
+    certificateContainer: {
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: 40
+    },
+    certificateButton: {
+        gap: 2,
+        flexDirection: "row",
+        backgroundColor: "#006c47",
+        borderRadius: 100,
+        padding: 8,
+        paddingHorizontal: 12,
+        alignItems: "center"
+    },
+    certificateText: {
+        color: "#cedf00"
     }
 });
