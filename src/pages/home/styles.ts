@@ -7,5 +7,14 @@ export const styles = StyleSheet.create({
         backgroundColor: "#cedf00",
         paddingTop: Constants.statusBarHeight,
         paddingHorizontal: 16
+    },
+    profilePictureAndQrCode: {
+        gap: 8,
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginTop: 16
+    },
+    profileInfo: {
+        marginTop: 16
     }
 });
