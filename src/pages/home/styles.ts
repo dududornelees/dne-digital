@@ -12,9 +12,9 @@ export const styles = StyleSheet.create({
         gap: 10,
         flexDirection: "row",
         justifyContent: "space-between",
-        marginTop: 16
+        marginTop: 28
     },
     profileInfo: {
-        marginTop: 16
+        marginTop: 28
     }
 });
